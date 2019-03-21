@@ -1,0 +1,58 @@
+/* This Done Make It All Work */
+
+html {
+	background: #111;
+}
+
+pre.rainbow {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #fff;
+	
+	background-image: -webkit-linear-gradient(45deg, #f00, #fa0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 3s infinite linear;
+}
+
+@-webkit-keyframes hue {
+	from {
+		-webkit-filter: hue-rotate(-360deg);
+	}
+	to {
+		-webkit-filter: hue-rotate(0deg);
+	}
+}
+
+/* This Don't Make Nothing Work */
+
+a.links {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
+	text-decoration: none;
+}
+
+body {
+	color: white;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+	text-align: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+li a {
+	padding: 0rem 1rem 0rem 1rem;
+}
+
+li a:hover {
+	background-color: #444;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
