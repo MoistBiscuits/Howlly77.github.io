@@ -1,15 +1,10 @@
 /* This Done Make It All Work */
 
-html {
-	background: #111;
-}
-
 pre.rainbow {
 	font-size: 1.5rem;
 	text-align: center;
-	color: #fff;
 	
-	background-image: -webkit-linear-gradient(45deg, #f00, #fa0);
+	background-image: -webkit-linear-gradient(0deg, #f00, #fa0);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-animation: hue 3s infinite linear;
@@ -44,6 +39,23 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+div.centre-column{
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	width: 1300px;
+}
+
+hr {
+	border-style: solid;
+	border-width: 0.1rem;
+	color: #fff;
+}
+
+html {
+	background: #000;
+}
+
 li a {
 	padding: 0rem 1rem 0rem 1rem;
 }
@@ -53,6 +65,9 @@ li a:hover {
 }
 
 ul {
+    columns: 2;
 	list-style-type: none;
+    -moz-columns: 2;
 	text-align: center;
+    -webkit-columns: 2;
 }
