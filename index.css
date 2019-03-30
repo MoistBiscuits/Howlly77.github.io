@@ -54,7 +54,9 @@ hr {
 }
 
 html {
-	background: #000;
+	background: #000 url("assets/background.jpg") no-repeat center top;
+	background-size: cover;
+	
 }
 
 li a {
