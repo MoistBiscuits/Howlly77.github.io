@@ -47,6 +47,11 @@ div.centre-column{
 	width: 1210px;
 }
 
+img.sociallogos {
+	height: 1em;
+	width: 1em;
+}
+
 hr {
 	border-style: solid;
 	border-width: 0.1rem;
@@ -59,18 +64,15 @@ html {
 	
 }
 
-li a {
+li {
+	display: inline;
 	padding: 0rem 1rem 0rem 1rem;
 }
 
-li a:hover {
+/*li a:hover {
 	background-color: #444;
-}
+}*/
 
 ul {
-    columns: 2;
 	list-style-type: none;
-    -moz-columns: 2;
-	text-align: center;
-    -webkit-columns: 2;
 }
