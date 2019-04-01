@@ -2,7 +2,7 @@
 
 pre.rainbow {
 	font-family: Courier New;
-	font-size: 1.5rem;
+	font-size: 24px;
 	text-align: center;
 	
 	background-image: -webkit-linear-gradient(0deg, #f00, #fa0);
@@ -23,21 +23,12 @@ pre.rainbow {
 /* This Don't Make Nothing Work */
 
 a.links {
-	color: white;
-	font-family: 'Oswald', sans-serif;
-	font-size: 4rem;
-	text-decoration: none;
+	font-size: 72px;
 }
 
 body {
 	color: white;
-    -ms-overflow-style: none;
-    overflow: -moz-scrollbars-none;
 	text-align: center;
-}
-
-body::-webkit-scrollbar {
-    display: none;
 }
 
 div.centre-column{
