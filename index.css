@@ -4,20 +4,15 @@ pre.rainbow {
 	font-family: Courier New;
 	font-size: 24px;
 	text-align: center;
-	text-rendering: geometricPrecision;
 	background-image: -webkit-linear-gradient(0deg, #f00, #fa0);
+	-webkit-animation: hue 3s infinite linear;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 3s infinite linear;
 }
 
 @-webkit-keyframes hue {
-	from {
-		-webkit-filter: hue-rotate(-360deg);
-	}
-	to {
-		-webkit-filter: hue-rotate(0deg);
-	}
+	from {-webkit-filter: hue-rotate(-360deg);}
+	to   {-webkit-filter: hue-rotate(0deg);}
 }
 
 /* This Don't Make Nothing Work */
