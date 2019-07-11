@@ -1,10 +1,12 @@
 /* This Done Make It All Work */
 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
 .rainbow {
-	font-family: monospace;
-	font-size: 24px;
-	text-align: center;
+	font-size: 500px;
+	font-family: Oswald, sans-serif;
 	background-image: -webkit-linear-gradient(0deg, #f00, #fa0);
+	margin: -100px 0px -100px 0px;
 	-webkit-animation: hue 3s infinite linear;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -17,42 +19,33 @@
 
 /* This Don't Make Nothing Work */
 
-a.links {
-	font-size: 72px;
-}
-
 body {
 	color: white;
 	text-align: center;
 }
 
-div.centre-column{
-	height: 100%;
-	margin: 0 auto;
-	padding: 0;
-	width: 75rem;
-}
-
-img.sociallogos {
-	height: 1em;
-	width: 1em;
-}
-
-hr {
-	border-style: solid;
-	border-width: 0.1rem;
-	color: #fff;
+div.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 html {
-	background: #000 url("assets/background.jpg") no-repeat center top;
+	background: #000 url("assets/bg-erosion.jpg") no-repeat center top;
 	background-size: cover;
-	
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	padding: 0px 10px 0px 10px;
 }
 
 li {
 	display: inline;
-	padding: 0rem 1rem 0rem 1rem;
 }
 
 ul {
