@@ -6,7 +6,8 @@
 	font-size: 500px;
 	font-family: Oswald, sans-serif;
 	background-image: -webkit-linear-gradient(0deg, #f00, #fa0);
-	margin: -100px 0px -100px 0px;
+	line-height: 1;
+	margin: 0px;
 	-webkit-animation: hue 3s infinite linear;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -50,4 +51,5 @@ li {
 
 ul {
 	list-style-type: none;
+	position: relative;
 }
