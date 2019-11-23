@@ -29,13 +29,11 @@ div.container {
     position: absolute;
     top: 50%;
     left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
 
 html {
-	background: #000 url("assets/bg-erosion.jpg") no-repeat center top;
+	background: #000 url("assets/background.jpg");
 	background-size: cover;
 }
 
