@@ -32,7 +32,7 @@ div.container {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.page-bg {
+div.page-bg {
 	background-attachment: fixed;
 	background-image: url('assets/background.jpg');
 	background-size: cover;
@@ -43,6 +43,10 @@ div.container {
 	height: 100%;
 	top: 0;
 	left: 0;
+}
+
+html {
+	background: #000;
 }
 
 img {
