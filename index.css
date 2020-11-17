@@ -3,10 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 .rainbow {
-	/*font-size: 500px;*/
 	font-size: 20vw;
 	font-family: Oswald, sans-serif;
-	background-image: -webkit-linear-gradient(0deg, #f00, #fa0);
+	background-image: -webkit-linear-gradient(0deg, red, yellow);
 	line-height: 1;
 	margin: 0px;
 	-webkit-animation: hue 3s infinite linear;
@@ -51,9 +50,9 @@ html {
 }
 
 img {
-	height: 100px;
-	width: 100px;
-	padding: 0px 10px 0px 10px;
+	height: 4vw;
+	width: 4vw;
+	padding: 0vw 0.25vw 0vw 0.25vw;
 }
 
 li {
